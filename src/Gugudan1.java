@@ -22,6 +22,7 @@ public class Gugudan1 {
 		System.out.print("몇 단, 몇 회 ? (X,Y 로 입력) : ");
 		Scanner scan = new Scanner(System.in);
 		String input = scan.nextLine();
+		scan.close();
 		return input;
 	}
 }
